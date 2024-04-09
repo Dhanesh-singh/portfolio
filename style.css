@@ -1069,16 +1069,29 @@ footer a i{
     }
     footer p{
         font-size: .8rem;
+        display: flex;
+        flex-wrap: wrap ;
     }
 }
 
 @media(max-width:420px){
+    .change-text h3,
+    .change-text h3 .word{
+        font-size: 2rem;
+    }
+    .img-box {
+        width: 300px;
+    }
+    .home-content p{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
     html{
-        font-size: 75%;
+        font-size: 80%;
 
     }
     footer p{
-        font-size: .6rem;
+        font-size: .8rem;
     }
     .filter-button .btn{
         font-size: 0.8rem;
