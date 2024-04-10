@@ -984,7 +984,7 @@ footer a i{
     }
 
     section {
-        padding: 8px 15px;
+        padding: 8px 8px;
 
     }
 
@@ -1077,7 +1077,7 @@ footer a i{
 @media(max-width:400px){
     .change-text h3,
     .change-text h3 .word{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .img-box {
         width: 300px;
@@ -1087,7 +1087,7 @@ footer a i{
         margin-bottom: 1rem;
     }
     html{
-        font-size: 80%;
+        font-size: 75%;
 
     }
     footer p{
