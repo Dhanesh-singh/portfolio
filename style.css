@@ -1076,10 +1076,7 @@ footer a i{
 }
 
 @media(max-width:400px){
-    .change-text h3,
-    .change-text h3 .word{
-        font-size: .6rem;
-    }
+
     
     .img-box {
         width: 260px;
@@ -1090,6 +1087,7 @@ footer a i{
     }
     html{
         font-size: 65%;
+        padding: 0, 15px
 
     }
     footer p{
