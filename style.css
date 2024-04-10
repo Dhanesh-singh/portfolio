@@ -1076,12 +1076,16 @@ footer a i{
 }
 
 @media(max-width:400px){
+    .change-text h3,
+    .change-text h3 .word{
+        font-size: 1rem;
+    }
     
     .img-box {
         width: 300px;
     }
     .home-content p{
-        font-size: 1rem;
+        font-size: .8rem;
         margin-bottom: 1rem;
     }
     html{
