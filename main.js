@@ -94,6 +94,32 @@ window.onscroll = () => {
     navlist.classList.remove("open");
 }
 
+let form = document.querySelector("form");
+form.addEventListener('submit', (e) =>{
+    e.preventDefault();
+    document.querySelector("#sub").value = "Submitting...";
+    let data = new FormData(form);
+    fetch("https://script.google.com/macros/s/AKfycbzNBJO5Oa3ecuVaU7n3EcAQmHxvuF1FgiS_DPIaf_qKi20LswSrI8WWOTbIabTPW5Di/exec",{
+        method: "POST",
+        body: data
+    })
+    .then(res => res.text())
+    .then(data => {
+        document.querySelector("#sub").value="submit"
+        document.querySelector("#msg").innerHTML=data;
+        setTimeout(() => {
+            const msg = document.getElementById('msg');
+          
+            
+            msg.style.display = 'none';
+          }, 1000);
+          
+
+        form.reset();
+    });
+})
+
+
 //parallax //////////////////////////////////////////////
 //time 2.06 write pallarax in css 
 
