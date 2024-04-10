@@ -1077,7 +1077,9 @@ footer a i{
 
 @media(max-width:420px){
 
-    
+    .img-box{
+        width: 300px;
+    }
     .img-box img{
         width: 260px;
     }
