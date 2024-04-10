@@ -362,9 +362,6 @@ section {
 
 }
 
-.liquid-shape:nth-child(2) {
-    filter: blur(50px);
-}
 
 /* About section-------------------------------------------------------- */
 
@@ -1078,10 +1075,10 @@ footer a i{
 @media(max-width:420px){
 
     .img-box{
-        width: 300px;
+        width: 400px;
     }
     .img-box img{
-        width: 260px;
+        width: 400px;
     }
     .home-content p{
         font-size: 1rem;
