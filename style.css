@@ -1078,7 +1078,7 @@ footer a i{
 @media(max-width:420px){
 
     
-    .img-box {
+    .img-box img{
         width: 260px;
     }
     .home-content p{
