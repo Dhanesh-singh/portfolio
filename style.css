@@ -841,14 +841,13 @@ footer a{
 }
 footer a i{
     font-size: 1rem;
-    margin-right: 8px;
     color: var(--secon-bg-color);
 }
 
 /* parallax effect--------------------------------- */
 .scroll-scale{
     opacity: 0;
-    transform: scale(.6);
+    transform: scale(.9);
     transition: all 2s;
 }
 .scroll-bottom{
