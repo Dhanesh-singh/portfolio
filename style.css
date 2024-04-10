@@ -841,6 +841,7 @@ footer a{
 }
 footer a i{
     font-size: 1rem;
+    margin-right: 8px;
     color: var(--secon-bg-color);
 }
 
@@ -1075,10 +1076,10 @@ footer a i{
 @media(max-width:420px){
 
     .img-box{
-        width: 400px;
+        width: 600px;
     }
     .img-box img{
-        width: 400px;
+        width: 600px;
     }
     .home-content p{
         font-size: 1rem;
